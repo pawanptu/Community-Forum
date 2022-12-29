@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainHeading{
+    font-family: 'Merriweather', serif;
+}
+img{
+    vertical-align: middle;
+    width:25%;
+    border-radius:50%;
+    padding:0px;
+}
+
+
+/* Designing the main thread area */
+.mainthreadArea{
+    border: px solid rgb(174, 123, 197);
+    border-radius: 15px;
+}
+
+.user-info-thread{
+    display: flex;
+}
+
+.user-icon-thread{
+    height: 30px;
+    width: 30px;
+}
+
+.thread-title{
+    font-family: 'Merriweather', serif;
+}
+
+.reply-thread-parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reply-div{
+    border: 2px solid rgb(174, 123, 197);
+    border-radius: 15px;
+}

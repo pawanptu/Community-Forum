@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(205, 155, 155);
+    border-radius: 500px;
+    width: 30vw;
+    height:15vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user-img-profile{
+    height: 40vh;
+    width: 4vw;
+    border-radius: 2vw;
+    border: 2px solid rgb(205, 155, 155);
+}
+
+img {
+    vertical-align: middle;
+    width:25%;
+    border-radius:50%;
+    padding:0px;
+}
+
+.profile-btn{
+    background-color: rgb(205, 155, 155);
+}
+
+.askthreadsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
